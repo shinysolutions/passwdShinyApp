@@ -1,0 +1,153 @@
+div.login { 
+  text-align: left;
+  position:absolute;
+  top: 40%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -150px;
+} 
+ 
+div#pass {
+  text-align: left;
+  font-weight:bold;
+  padding-left:2px;
+}
+ 
+input#Password {
+  -webkit-text-security: disc;
+}
+ 
+body {
+  margin:1cm;
+  font-size: 12px;
+}
+ 
+.shiny-output-error {
+  visibility: hidden;
+}
+
+
+body {
+  margin:15px;
+  font-size: 12px;
+}
+
+.busy { 
+  position:absolute;
+  top: 40%;
+  left: 50%;
+  z-index: 1;
+}
+
+#lang {
+  position:absolute;
+  right: 30px;
+  top: 5px;
+  z-index: 1;
+}
+
+#uiLayout {
+  padding-bottom: 10px;
+}
+
+#interval label.radio {
+  padding-bottom: 10px;
+}
+
+label.radio{
+  //float:left;
+  height:20px;
+  padding-right: 10px;
+}
+
+
+
+.input {
+  float: left;
+  width: 260px;
+  //padding-top: 20px;
+  padding-right: 20px;
+}
+
+.output div {
+  //width: 75vw;
+  overflow-y:hidden;
+}
+
+.highcharts {
+  height: 90vh;
+}
+
+.shiny-output-error {
+  visibility: hidden;
+}
+
+.wPanel {
+  width: 224px;
+  min-height: 10px;
+  padding: 10px 15px 10px 15px;
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  z-index: -99;
+}
+select[multiple] {
+  height: 60px;
+}
+
+.radio {
+    float: left;
+    //margin-left: 10px;
+}
+
+
+
+#Export {
+  height: 90px;
+}
+
+.ePanel {
+  visibility: hidden;
+  //display:none;
+  padding: 10px 0px 0px 0px;
+}
+
+#help, .hPanel {
+  position:absolute;
+  right: 15px;
+  top: 11px;
+  z-index: 1;
+}
+
+.hPanel {
+  display:none;
+  min-height: 10px;
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 5px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+}
+
+.cPanel {
+  display:none;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+#submit {
+  float: right;
+}
+
+#svg, #svg2 {
+  display:none;
+}
+
